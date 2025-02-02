@@ -18,7 +18,7 @@ The Interactive Quiz Application is a web-based quiz platform that dynamically f
 ### Installation
 ```bash
 # Clone the repository
-git clone []
+git clone [https://github.com/BrajRaj89/Quiz-Master.git]
 
 # Navigate to the project directory
 cd quiz-application
