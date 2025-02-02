@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div class="welcome-screen">
+            <h1>Quiz Master</h1>
+            <p><b>Test your knowledge and earn achievements! Are you ready to begin?</b></p>
+            <button class="btn" id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div class="quiz-screen hidden">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="question">
+                <h2 id="question-text"></h2>
+                <div class="options" id="options-container">
+                    <!-- Options will be inserted here -->
+                </div>
+            </div>
+            <button class="btn" id="next-btn" style="display: none;">Next Question</button>
+        </div>
+
+        <!-- Result Screen -->
+        <div class="result-screen hidden">
+            <h2>Quiz Completed!</h2>
+            <div class="score-container">
+                <div class="score-fraction">0/0</div>
+                <div class="score-percentage">0%</div>
+            </div>
+            <div class="score-details">
+                <div class="detail-item">
+                    <span>Questions Answered:</span>
+                    <span id="total-questions">0</span>
+                </div>
+                <div class="detail-item">
+                    <span>Correct Answers:</span>
+                    <span id="correct-answers">0</span>
+                </div>
+                <div class="detail-item">
+                    <span>Incorrect Answers:</span>
+                    <span id="incorrect-answers">0</span>
+                </div>
+                <div class="detail-item highlight">
+                    <span>Your Score:</span>
+                    <span id="total-score">0/0</span>
+                </div>
+            </div>
+            <div class="achievements">
+            </div>
+            <button class="btn" id="restart-btn">Try Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
