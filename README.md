@@ -38,10 +38,14 @@ quiz-application/
 ```
 
 ## Screenshots & Video Walkthrough
-assets\images\screenshot1.png
-assets\images\screenshot2.png
-assets\images\screenshot3.png
-assets\images\screenshot4.png
-assets\images\quizweb.mp4
+1. assets\images\screenshot1.png
+
+2. assets\images\screenshot2.png
+
+3. assets\images\screenshot3.png
+
+4.   assets\images\screenshot4.png
+
+5. assets\images\quizweb.mp4
 
 
